@@ -1,0 +1,7 @@
+<!--miniprogram/pages/sonPages/editUserInfo/avatarUrl/avatarUrl.wxml-->
+<view class="avatarUrl">
+  <button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" >使用微信头像</button>
+  <button bindtap="handleButton" >上传自定义头像</button>
+  <text>头像预览</text>
+  <image src="{{avatarUrl}}" bindtap="handleUploadImage" ></image>
+</view>

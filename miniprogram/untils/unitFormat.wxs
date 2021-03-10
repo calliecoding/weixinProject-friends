@@ -1,0 +1,10 @@
+// 处理点赞数过长
+var unitFormat = function(num) {
+  if(num >= 1000){
+    num = (num/1000).toFixed(1)+'k'; // 1.2k
+  }
+  return num
+}
+module.exports = {
+  unitFormat:unitFormat
+};

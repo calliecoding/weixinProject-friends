@@ -1,0 +1,5 @@
+/* components/callPhone/callPhone.wxss */
+
+text{
+  margin-left: 20rpx;
+}

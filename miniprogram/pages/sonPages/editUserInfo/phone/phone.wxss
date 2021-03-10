@@ -1,0 +1,7 @@
+/* miniprogram/pages/sonPages/editUserInfo/phone/phone.wxss */
+.phone{
+  padding:20rpx
+}
+input{
+  border: 4rpx solid #ccc;
+}

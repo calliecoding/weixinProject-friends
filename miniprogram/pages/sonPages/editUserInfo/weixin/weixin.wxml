@@ -1,0 +1,5 @@
+<!--miniprogram/pages/sonPages/editUserInfo/weixin/weixin.wxml-->
+<view class="weixin">
+    <button bindtap="handleButton">修改微信号</button>
+    <input type="text" value="{{weixin}}" bindinput="handleText"></input>
+</view>

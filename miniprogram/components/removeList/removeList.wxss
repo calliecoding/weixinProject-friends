@@ -1,0 +1,50 @@
+/* components/removeList/removeList.wxss */
+
+.area{
+  overflow: hidden;
+  position: relative;
+  margin: 20rpx;
+  height: 150rpx;
+  width: calc(100% - 40rpx);
+  background-color: #acd;
+  border-bottom:2rpx dashed #acd;
+  border-radius: 20rpx;
+ 
+
+}
+
+.view{
+  position: absolute;
+  left:150rpx;
+  width: calc(100% - 150rpx);
+  background-color: #cdf;
+  height: 150rpx;
+  z-index: 2;
+  line-height: 150rpx;
+  text-indent: 20rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow:ellipsis;
+}
+
+
+image{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+
+.delete{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150rpx;
+  height: 150rpx;
+  background-color: #ddd;
+  
+  line-height: 150rpx;
+  text-indent: 20rpx;
+}

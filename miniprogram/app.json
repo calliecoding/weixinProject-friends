@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/message/message",
+    "pages/near/near",
+    "pages/user/user",
+    "pages/sonPages/editUserInfo/editUserInfo",
+    "pages/sonPages/friendList/friendList",
+    "pages/sonPages/userDetail/userDetail",
+    "pages/sonPages/editUserInfo/avatarUrl/avatarUrl",
+    "pages/sonPages/editUserInfo/nickName/nickName",
+    "pages/sonPages/editUserInfo/signature/signature",
+    "pages/sonPages/editUserInfo/location/location",
+    "pages/sonPages/editUserInfo/phone/phone",
+    "pages/sonPages/editUserInfo/weixin/weixin",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTitleText": "喵喵在哪里儿",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "selectedIconPath": "images/tabBar/首页_active.png",
+        "iconPath": "images/tabBar/首页.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/near/near",
+        "selectedIconPath": "images/tabBar/附近_active.png",
+        "iconPath": "images/tabBar/附近.png",
+        "text": "附近"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "selectedIconPath": "images/tabBar/消息_active.png",
+        "iconPath": "images/tabBar/消息.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "selectedIconPath": "images/tabBar/我的_active.png",
+        "iconPath": "images/tabBar/我的.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示" 
+    }
+  }
+}

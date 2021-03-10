@@ -1,0 +1,27 @@
+/* miniprogram/pages/detail/detail.wxss */
+
+.detail{
+  padding:20rpx
+}
+
+.detail-item{
+  display: flex;
+  align-items: center;
+  border-bottom: 2rpx dashed #ccc;
+  height: 100rpx;
+}
+
+.detail-item image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  border: 6rpx solid #ccc;
+}
+
+.detail-item-avatar{
+  height: 250rpx;
+}
+
+button{
+  margin-top:30rpx;
+}

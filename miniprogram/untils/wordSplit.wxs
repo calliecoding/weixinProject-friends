@@ -1,0 +1,13 @@
+// 分割文件:wordSplit用于分割过长的字符串
+
+var wordSplit = function(word) {
+  if(word.length > 4){
+    word = word.substring(0,4) + "..." ;//提取字符串中介于两个指定下标之间的字符。
+  }
+  
+  
+  return word;
+}
+module.exports = {
+  wordSplit:wordSplit
+};

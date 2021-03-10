@@ -1,0 +1,7 @@
+/* miniprogram/pages/sonPages/editUserInfo/nickName/nickName.wxss */
+.nickName{
+  padding:20rpx
+}
+input{
+  border: 4rpx solid #ccc;
+}

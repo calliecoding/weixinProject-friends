@@ -1,0 +1,7 @@
+/* miniprogram/pages/sonPages/editUserInfo/signature/signature.wxss */
+.signature{
+  padding:20rpx
+}
+input{
+  border: 4rpx solid #ccc;
+}

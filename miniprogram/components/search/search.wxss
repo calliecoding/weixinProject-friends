@@ -1,0 +1,95 @@
+/* components/search/search.wxss */
+.container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: calc(100% - 40rpx);
+  height: 90rpx;
+  z-index: 99;
+  padding: 0 20rpx;
+  overflow: hidden;
+}
+.containerFocus{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: calc(100% - 40rpx);
+  height: 100%;
+  z-index: 99;
+  padding: 0 20rpx;
+  background-color: #ccc;
+}
+.search{
+  margin-top: 20rpx;
+  display: flex;
+  align-items: center;
+}
+
+/* 搜索框 */
+.search-text{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border:2rpx solid #ccc;
+  border-radius: 20rpx;
+  height: 70rpx;
+  text-indent: 10rpx;
+  background-color: #fff;
+}
+.search-text > input{
+  flex: 1;
+}
+
+.search-cancle{
+  margin-left: 20rpx;
+}
+
+/* 搜索历史 */
+.search-history{
+  margin-top:20rpx ;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-history-words{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.search-history-words text{
+  padding: 10rpx;
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+  border: 2rpx solid #fff;
+  border-radius: 20rpx;
+}
+.search-history-words text.last{
+  flex: 1;
+  border:none;
+}
+
+/* 搜索列表内容 */
+.searchList{
+  padding:20rpx
+}
+.searchList-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom:4rpx dashed #ccc;
+  height: 150rpx;
+}
+.searchList-item-image{
+  display: flex;
+  align-items: center;
+
+}
+.searchList-item-image text{
+  margin:0 20rpx;
+}
+
+.searchList-item image{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+}

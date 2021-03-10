@@ -1,0 +1,4 @@
+/* components/callPhone/copyText/copyText.wxss */
+text{
+  margin-left: 20rpx;
+}

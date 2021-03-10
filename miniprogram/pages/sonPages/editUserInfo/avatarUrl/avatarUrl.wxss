@@ -1,0 +1,12 @@
+/* miniprogram/pages/sonPages/editUserInfo/avatarUrl/.wxss */
+.avatarUrl{
+  padding:20rpx
+}
+image{
+  display: block;
+  margin: 20rpx auto;
+  width: 200rpx;
+  height: 200rpx;
+  border: 4rpx solid #ccc;
+  border-radius: 50%;
+}

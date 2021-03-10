@@ -1,0 +1,6 @@
+<!--miniprogram/pages/near/near.wxml-->
+<view class="map">
+  <map longitude="{{longitude}}" latitude="{{latitude}}" scale="{{scale}}" show-location
+  markers="{{markers}}" bindmarkertap="markertap"
+  ></map>
+</view>

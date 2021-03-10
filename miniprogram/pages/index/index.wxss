@@ -1,0 +1,66 @@
+/* miniprogram/pages/index/index.wxss */
+.index{
+  padding:20rpx;
+  margin-top:90rpx;
+}
+
+/* 轮播图 */
+.index-swiper{
+  overflow: hidden;
+  /* margin:20rpx; */
+  height: 300rpx;
+  background-color: #cdf;
+  border-radius: 16rpx;
+}
+.index-swiper image{
+  width: 100%;
+}
+
+/* 标签选项卡 */
+.index-tab{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding:16rpx 0;
+}
+.index-tab view{
+  flex: 1;
+}
+.index-tab view.active{
+  border-bottom: 6rpx solid red;
+  color: red;
+}
+
+/* 选项卡内容 */
+.index-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.index-list-item{
+  width:48%;
+  border-radius: 10rpx;
+  overflow: hidden;
+  background-color: #fff;
+  
+}
+.index-list-item image{
+  width:100%;
+  height: 300rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.index-list-text{
+  display: flex;
+  justify-content: space-between;
+  color: #e775c1;
+ 
+}
+.index-list-text-name{
+ color: #cdf;
+ overflow:hidden;	/*超出隐藏*/
+	white-space:nowrap;	/*不换行*/
+  text-overflow:ellipsis; /*超出部分省略号显示*/
+}
+

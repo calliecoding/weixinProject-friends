@@ -1,0 +1,39 @@
+<!--miniprogram/pages/index/index.wxml-->
+<wxs src="/untils/wordSplit.wxs" module="tool1" />
+<wxs src="/untils/unitFormat.wxs" module="tool2" />
+
+
+<search></search>
+<view class="index">
+  <!-- 轮播图 -->
+  <view class="index-swiper">
+    <swiper indicator-dots="{{true}}" autoplay="{{true}}" class="" circular="{{true}}">
+      <block wx:for="{{imgUrls}}" wx:key="index">
+        <swiper-item>
+          <image src="{{item}}"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <!-- 选项卡 -->
+  <view class="index-tab">
+    <view class="{{current == 'links' ? 'active' : null}}"  data-current="links" bindtap="handleCurrent">推荐</view>
+    <view class="{{current == 'time' ? 'active' : null}}"  data-current="time" bindtap="handleCurrent">最新</view>
+  </view>
+
+  <!-- 列表 -->
+  <view class="index-list">
+    <view class="index-list-item" mode="aspectFill" lazy-load="true" wx:for="{{dataList}}" wx:key="index">
+      <image src="{{item.avatarUrl}}" bindtap="handleToDetail" data-id="{{item._id}}">
+      </image>
+      <view class="index-list-text">
+        <!-- <text class="index-list-text-name">{{item.nickName}}</text -->
+        <text class="index-list-text-name">{{tool1.wordSplit(item.nickName)}}</text>
+        <text data-id="{{item._id}}" class="iconfont icon-dianzan1" bindtap="handleLinks">{{tool2.unitFormat(item.links)}}</text>
+      </view>
+    </view>
+
+  </view>
+
+</view>
