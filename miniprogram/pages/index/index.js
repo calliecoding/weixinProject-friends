@@ -12,7 +12,7 @@ Page({
       "https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"
     ],
     dataList: [],
-    current:"time", //记录当前列表的排序类型：按照links/时间
+    current:"links", //记录当前列表的排序类型：按照links/time
   },
 
   /**
